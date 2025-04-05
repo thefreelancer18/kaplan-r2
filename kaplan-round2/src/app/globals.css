@@ -19,7 +19,9 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, "Lucida Grande", Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +41,27 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-form{
+  width: 50vw;
+}
+
+.form-element {
+  margin: 1rem;
+  p, .radio-options{
+    margin-bottom: 1rem;
+  }
+}
+
+.required {
+  color: red;
 }
